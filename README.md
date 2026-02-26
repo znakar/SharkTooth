@@ -1,5 +1,5 @@
 
-# Python Port Scanner
+# SharkTooth
 [![Python](https://img.shields.io/badge/python-3.13.1-3670A0?style=for_the-badge&logo=python&logoColor=green)](https://www.python.org) 
 [![license](https://custom-icon-badges.demolab.com/github/license/znakar/Port_Scanner?logo=law&logoColor=white)](https://github.com/znakar/Port_Scanner/blob/master/LICENSE? "license MIT")
 [![stars](https://custom-icon-badges.demolab.com/github/stars/znakar/Port_Scanner?logo=star&style=flat&cacheSeconds=60)](https://github.com/znakar/Port_Scanner/stargazers "stars")
@@ -78,6 +78,7 @@ The project demonstrates:
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 #### Last update: 23.01.2026
+
 
 
 
