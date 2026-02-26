@@ -8,7 +8,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=Prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white)
-## A Python port scanner with TCP and UDP support. Suitable for basic network auditing and learning.
+## SharkTooth is a port scanner with TCP and UDP support. Suitable for basic network auditing and training.
 ### The project is fully containerized using docker and docker compose for rapid deployment of the monitoring system.
 
 The project demonstrates:
@@ -78,6 +78,7 @@ The project demonstrates:
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 #### Last update: 23.01.2026
+
 
 
 
