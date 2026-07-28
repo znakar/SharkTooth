@@ -1,5 +1,5 @@
 
-# SharkTooth
+# SharkTooth (In Development)
 [![Python](https://img.shields.io/badge/python-3.13.1-3670A0?style=for_the-badge&logo=python&logoColor=green)](https://www.python.org) 
 [![license](https://custom-icon-badges.demolab.com/github/license/znakar/Port_Scanner?logo=law&logoColor=white)](https://github.com/znakar/Port_Scanner/blob/master/LICENSE? "license MIT")
 [![stars](https://custom-icon-badges.demolab.com/github/stars/znakar/Port_Scanner?logo=star&style=flat&cacheSeconds=60)](https://github.com/znakar/Port_Scanner/stargazers "stars")
@@ -9,16 +9,50 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=Prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white)
 ## SharkTooth is a port scanner with TCP and UDP support. Suitable for basic network auditing and training.
-### The project is fully containerized using docker and docker compose for rapid deployment of the monitoring system.
+
+
+## What does “In Development” mean:
+
+New features are being added while existing ones are refactored or removed.
+
+
+
+New features:
+
+- SYN-Scan, sniffer
+
+- Manual Packet Assembly: building IP/TCP headers, calculating checksums
+
+
+
+What will be deleted:
+
+- Progress-bar
+- Monitoring (Prometheus + Grafana)
+
+
+
+NOTE: The scanner will NOT work on Windows - requires raw sockets, which need root/admin privileges and behave differently on Windows
+
+
+
+The project is being worked on by a single person with no commercial development experience, who is writing this software to build a low-level understanding of how things work under the hood. 
+
+
+
+If you find this useful or interesting, a ⭐ on the repo helps a lot - thank you!
+
+
+## Currently, the project is fully containerized using Docker and docker-compose, which also deploys the monitoring stack (to be phased out, see above).
 
 The project demonstrates:
 
-* Creating network connections
+* Network connection handling
 * Checking port availability
 * TCP and UDP scanning
 * Multithreading
 * Progress bar
-* Availability of help for commands
+* Command help
 * Monitoring
 
 ## Demonstration of work
@@ -77,7 +111,8 @@ The project demonstrates:
 
 If you found an issue or would like to submit an improvment to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
-#### Last update: 23.01.2026
+#### Last code update: Jan 23, 2026
+#### README last updated: July 28, 2026
 
 
 
