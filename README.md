@@ -32,7 +32,8 @@ What will be deleted:
 
 
 
-NOTE: The scanner will NOT work on Windows - requires raw sockets, which need root/admin privileges and behave differently on Windows
+> [!NOTE]
+>  The scanner will NOT work on Windows - requires raw sockets, which need root/admin privileges and behave differently on Windows
 
 
 
