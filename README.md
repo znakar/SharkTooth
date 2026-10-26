@@ -35,12 +35,6 @@ What will be deleted:
 > [!NOTE]
 >  The scanner will NOT work on Windows - requires raw sockets, which need root/admin privileges and behave differently on Windows
 
-
-
-The project is being worked on by a single person with no commercial development experience, who is writing this software to build a low-level understanding of how things work under the hood. 
-
-
-
 If you find this useful or interesting, a ⭐ on the repo helps a lot - thank you!
 
 
